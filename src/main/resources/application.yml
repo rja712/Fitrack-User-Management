@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Fitrack-User-Management
+  server:
+    port: 8081
+  datasource:
+    url: jdbc:mysql://localhost:3306/fitrack_user_management
+    username: root
+    password: rootroot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    enabled: true
+    repair: true
